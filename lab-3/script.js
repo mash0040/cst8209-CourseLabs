@@ -5,11 +5,11 @@ const game = {
     tent: false
 }
 function help () {
-    console.log("To pitch the tent, use pitch")
-    console.log("To gather the wood, use search")
-    console.log("To start or stop the fire, use tend")
-    console.log("To roast the marshmallows, use roast")
-    console.log("To sleep, use sleep")
+    console.log("To pitch the tent, use pitch!")
+    console.log("To gather the wood, use search!")
+    console.log("To start or stop the fire, use tend!")
+    console.log("To roast the marshmallows, use roast!")
+    console.log("To sleep and end the game, use sleep!")
 }
 
 function pitch () {
@@ -18,18 +18,19 @@ function pitch () {
 }
 
 function search () {
-    if (game.fire == false){
+    if (!game.fire ){
         game.wood++
-        console.log ("You gathered some wood!")
+        console.log ("You gathered some wood")
     }
     else {
-            console.log("You can't gather woods if the fire is lit")
+            console.log("You can't gather woods if you already started the fire!")
     }
 }
 
 function tend () {
     if (game.fire == false && game.wood > 0) {
         game.fire = true 
+        game.wood-- 
         console.log("You started the fire")
     }
     else if (game.fire == true ) {
