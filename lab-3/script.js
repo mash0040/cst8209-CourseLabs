@@ -13,9 +13,16 @@ function help () {
 }
 
 function pitch () {
+    if (!game.tent) {
     game.tent = true
     console.log ("You pitched the tent")
-}
+    }
+
+    else{
+        console.log("You already pitched a tent")
+    }
+        
+    }
 
 function search () {
     if (!game.fire ){
@@ -23,7 +30,7 @@ function search () {
         console.log ("You gathered some wood")
     }
     else {
-            console.log("You can't gather woods if you already started the fire!")
+        console.log("You can't gather woods if you already started the fire!")
     }
 }
 
@@ -64,6 +71,6 @@ function sleep () {
     game.tent = false
     }
     else{
-        console.log ("You can't go to sleep")
+        console.log ("You can't go to sleep without starting a fire")
     }
 }
