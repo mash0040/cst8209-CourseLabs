@@ -1,0 +1,19 @@
+h1 {
+    font-size: 70px;
+}
+
+
+.theme-1 {
+    background-color: green;
+    color: black;    
+}
+
+.theme-2 {
+    background-color: blue;
+    color: red;
+}
+
+.theme-3 {
+    background-color: aquamarine;
+    color: blueviolet;
+}
