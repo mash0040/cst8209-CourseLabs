@@ -32,6 +32,6 @@ function showBook(index) {
         console.log("Author: " + book.author)
         console.log("Genre: " + book.genre)
     } else {
-        console.log("Book not found.")
+        console.log("Book not found!")
     }
 }
