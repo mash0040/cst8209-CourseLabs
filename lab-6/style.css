@@ -1,0 +1,31 @@
+#emoji-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,  minmax(250px, 1fr));
+    gap: 10px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.emojis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(208, 206, 206);
+    font-size: 16px;
+    text-align: center;
+    height: 240px;
+}
+
+.emojiname {
+  background-color: rgb(242, 240, 240);
+  margin: 20px;
+}
+
+.emojiicon {
+    font-size: 100px;
+}
+
+h2 {
+    text-align: center;
+}
