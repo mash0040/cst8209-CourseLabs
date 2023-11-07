@@ -1,7 +1,9 @@
-# Ekene Masha
+# This ia a solution to Lab 1 Assignment 
 
-# 041-083-709
+Name: Ekene Masha
 
-# CST8209	311	Web Programming I
+Student Number: 041-083-709
 
-# I am looking forward to learning Git, Git Hub, and Javascript. I look forward to building my own projects. 
+Course and Section Number: CST8209 Web Programming I/311
+
+One thing I am looking forward to in this course: I'm excited to learn more about Git, Git Hub and Javascript. I can't wait to start working on my own projects and seeing what I can create!
