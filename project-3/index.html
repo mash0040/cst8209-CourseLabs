@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ekene Masha" />
+    <meta name="email" content="mash0040@algonquinlive.com" />
+    <meta name="date" content="2023-12-10" />
+    <title>APOD SEARCH</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>APOD SEARCH</header>
+
+    <main>
+      <form action="" id="form">
+        <h1>Enter a date</h1>
+        <input type="date" id="date" />
+        <button type="submit">Get Picture</button>
+      </form>
+
+      <div id="main" class="main"></div>
+
+      <hr />
+
+      <div class="favorites">
+        <h2>Favorites</h2>
+      </div>
+
+      <div>
+        <div id="favorites-container"></div>
+      </div>
+
+      <div id="modal">
+        <div id="modal-content">
+          <div id="image-container">
+            <span id="close">&times;</span>
+            <img id="modal-image" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
